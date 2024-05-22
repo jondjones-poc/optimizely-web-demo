@@ -27,6 +27,9 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+
+  <script src="https://cdn.optimizely.com/js/29324120255.js"></script>
+
 </head>
 
 <body>
@@ -94,16 +97,16 @@
                   <div class="col-md-7">
                     <div class="detail-box">
                       <h1>
-                        Welcome To Our Shop
+                        Timeless Pieces, Modern Flair
                       </h1>
                       <p>
-                        Sequi perspiciatis nulla reiciendis, rem, tenetur impedit, eveniet non necessitatibus error distinctio mollitia suscipit. Nostrum fugit doloribus consequatur distinctio esse, possimus maiores aliquid repellat beatae cum, perspiciatis enim, accusantium perferendis.
+                        Discover the epitome of style and sophistication with our exclusive collection. At Elegance Redefined, we believe that fashion is more than just clothing—it's a statement, an art form, and a way to express your unique self.
                       </p>
-                      <a href="/shop.html?type=men">
-                        Shop Mens
+                      <a href="/shop.html" data-example="mens-button">
+                        Shop Men's
                       </a>
-                      <a href="/shop.html?type=woman">
-                        Shop Womens
+                      <a href="/shop.html" data-example="womens-button">
+                        Shop Women's
                       </a>
                     </div>
                   </div>
@@ -356,33 +359,28 @@
   <!-- end shop section -->
 
   <!-- saving section -->
-
   <section class="saving_section ">
     <div class="box">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-6">
-            <div class="img-box">
-              <img src="images/saving-img.png" alt="">
+          <div class="col-lg-3">
+            <div class="img-box-content">
+              <img src="images/saving-img.png" alt="" width="250px">
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-9">
             <div class="detail-box">
               <div class="heading_container">
                 <h2>
-                  Best Savings on <br>
-                  new arrivals
+                  The Luka 3 Combines Unmatched <br />Control with Smooth Comfort
                 </h2>
               </div>
               <p>
-                Qui ex dolore at repellat, quia neque doloribus omnis adipisci, ipsum eos odio fugit ut eveniet blanditiis praesentium totam non nostrum dignissimos nihil eius facere et eaque. Qui, animi obcaecati.
+                Tuned for creating maximum separation from defenders, the Luka 3 is designed to provide balance to the stop-on-a-dime gameplay of Dallas Mavericks guard Luka Dončić.
               </p>
               <div class="btn-box">
-                <a href="#" class="btn1">
-                  Buy Now
-                </a>
                 <a href="#" class="btn2">
-                  See More
+                  Learn More
                 </a>
               </div>
             </div>
@@ -391,7 +389,6 @@
       </div>
     </div>
   </section>
-
   <!-- end saving section -->
 
   <!-- why section -->
@@ -686,99 +683,73 @@
   </section>
   <!-- end gift section -->
 
-  <!-- info section -->
-  <section class="info_section  layout_padding2-top">
-    <div class="social_container">
-      <div class="social_box">
-        <a href="">
-          <i class="fa fa-facebook" aria-hidden="true"></i>
-        </a>
-        <a href="">
-          <i class="fa fa-twitter" aria-hidden="true"></i>
-        </a>
-        <a href="">
-          <i class="fa fa-instagram" aria-hidden="true"></i>
-        </a>
-        <a href="">
-          <i class="fa fa-youtube" aria-hidden="true"></i>
-        </a>
-      </div>
-    </div>
-    <div class="info_container ">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-lg-3">
-            <h6>
-              ABOUT US
-            </h6>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet,
-            </p>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="info_form ">
-              <h5>
-                Newsletter
-              </h5>
-              <form action="#">
-                <input type="email" placeholder="Enter your email">
-                <button>
-                  Subscribe
-                </button>
-              </form>
+<!-- info section -->
+<section class="info_section  layout_padding2-top">
+
+  <div class="info_container ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-lg-3">
+          <b>GLOBAL LINKS</b><br /><br />
+          <p>
+            <a href="https://optimizely.navattic.com/ok1i05rf">Github<br />
+            <a href="https://optimizely.navattic.com/ok1i05rf">Opti-One<br />
+            <a href="https://optimizely.navattic.com/rk25y0y54">Configured Commerce<br />
+            <a href="https://optimizely.navattic.com/ebcn0grv">Customized Commerce<br />
+          </p>
+        </div>
+        <div class="col-md-6 col-lg-6">
+            <div class="social_container">
+              <div class="social_box">
+                <a href="">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                  <i class="fa fa-youtube" aria-hidden="true"></i>
+                </a>
+              </div>
             </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <h6>
-              NEED HELP
-            </h6>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet,
-            </p>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <h6>
-              CONTACT US
-            </h6>
-            <div class="info_link-box">
-              <a href="">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <span> Gb road 123 london Uk </span>
-              </a>
-              <a href="">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <span>+01 12345678901</span>
-              </a>
-              <a href="">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                <span> demo@gmail.com</span>
-              </a>
-            </div>
+        </div>
+        <div class="col-md-3 col-lg-3">
+          <h6>
+            CONTACT US
+          </h6>
+          <div class="info_link-box">
+            <a href="">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span> Phone: +1 603 594 0249</span>
+            </a>
           </div>
         </div>
       </div>
     </div>
-    <!-- footer section -->
-    <footer class=" footer_section">
-      <div class="container">
-        <p>
-          &copy; <span id="displayYear"></span> All Rights Reserved By
-          <a href="https://html.design/">Free Html Templates</a>
-        </p>
-      </div>
-    </footer>
-    <!-- footer section -->
+  </div>
+  <!-- footer section -->
+  <footer class=" footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> Optimizely
+      </p>
+    </div>
+  </footer>
+  <!-- footer section -->
 
-  </section>
+</section>
 
-  <!-- end info section -->
+<!-- end info section -->
 
 
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
-  </script>
-  <script src="js/custom.js"></script>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+</script>
+<script src="js/custom.js"></script>
 
 </body>
 
