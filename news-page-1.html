@@ -13,14 +13,14 @@
   <meta name="author" content="" />
 
   <meta http-equiv="Content-Security-Policy"
-    content="
-      default-src 'none';
-      frame-src https://a[your-account-id].cdn.optimizely.com https://a[your-account-id].cdn-pci.optimizely.com;
-      script-src 'self' https://*.optimizely.com https://optimizely.s3.amazonaws.com https://cdn-assets-prod.s3.amazonaws.com 'nonce-[your-nonce-value]' 'strict-dynamic';
-      connect-src https://logx.optimizely.com https://*.optimizely.com;
-      img-src https://cdn.optimizely.com;
-      style-src 'unsafe-inline';
-    " />
+  content="
+    default-src * 'unsafe-inline' 'unsafe-eval' data: blob:;
+    script-src * 'unsafe-inline' 'unsafe-eval' data: blob:;
+    style-src * 'unsafe-inline';
+    img-src * data: blob:;
+    connect-src *;
+    frame-src *;
+  ">
 
   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 
